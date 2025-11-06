@@ -1,0 +1,16 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.main-slider__title:before {
+    position: absolute;
+    top: -22px;
+    left: 5px;
+    height: 13px;
+    width: 324px;
+    content: "";
+    background-image: -moz-linear-gradient(0deg, rgb(1, 95, 201) 0%, rgb(12, 224, 255) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(1, 95, 201) 0%, rgb(12, 224, 255) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(1, 95, 201) 0%, rgb(12, 224, 255) 100%);
+    border-radius: 6.5px;
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

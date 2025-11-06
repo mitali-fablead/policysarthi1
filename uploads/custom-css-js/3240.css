@@ -1,0 +1,97 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.services-section .icon-box-service {
+  
+    background-color: #fff;
+/*     border: 1px solid #000; */
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.services-section .icon-box-service:hover:before {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+.services-section .icon-box-service::before {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    width: 80px;
+    height: 80px;
+    background:#16243D;
+    transition: .5s;
+    opacity: 0;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.services-section .icon-box-service:hover .elementor-icon-box-content .elementor-icon-box-description,
+.services-section .icon-box-service:hover .elementor-icon-box-content .elementor-icon-box-title
+{
+	color:white;
+}
+.services-section .icon-box-service:hover .ser-heading h4,
+.services-section .icon-box-service:hover .ser-pera p{
+	color:white;
+}
+#menu-item-2832 a::after {
+      font-weight: 900;
+	    margin-left: 90px;
+	    content: "\f101";
+    font-family: "Font Awesome 5 Free";
+	    opacity: 1 !important;
+}
+
+
+
+
+.services-section .img-box-service {
+  
+    background-color: #fff;
+    border: 1px solid rgba(35, 35, 35, 0.1);
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.services-section .img-box-service:hover {
+    background: #3859B1;
+    transition: all 1s ease;
+}
+.services-section .img-box-service:hover:before {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+/* .services-section .img-box-service::before {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    width: 80px;
+    height: 80px;
+    background: #ee7e2b;
+    transition: .5s;
+    opacity: 0;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+.services-section .img-box-service:hover .elementor-image-box-description,
+.services-section .img-box-service:hover .elementor-image-box-title,
+.services-section .img-box-service:hover .elementor-button-text,
+.services-section .img-box-service:hover .elementor-button-icon
+{
+	color:white;
+}
+
+.services-section .img-box-service:hover .elementor-image-box-img{
+    filter: invert(1);
+}
+.service-btn a.elementor-button.elementor-button-link.elementor-size-sm {
+    background-color: transparent !important;
+	background-image:none!important;
+	padding: 0 !important;
+}</style>
+<!-- end Simple Custom CSS and JS -->

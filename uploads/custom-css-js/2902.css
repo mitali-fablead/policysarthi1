@@ -1,0 +1,38 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* .hfe-nav-menu li#menu-item-2834 a {
+    border-radius: 10px 0 0px 10px !important;
+} */
+
+/* .elementor-element-3d198e4 span.elementor-icon {
+	 border: solid 2px #e0e4e8; 
+} */
+
+.elementor-element-a1d783b .elementor-icon-box-icon a.elementor-icon {
+    border: solid 2px #e0e4e8;
+}
+.elementor-element-a1d783b .elementor-icon-box-icon a.elementor-icon:hover {
+    border: solid 2px #e0e4e8;
+}
+.page-id-2791 li#menu-item-2832 a {
+    color: white !important;
+}
+/* 
+.elementor-2695 .elementor-element.elementor-element-5d55b62 ul.sub-menu li ul.sub-menu{
+	    columns: 2;
+    width: 600px;
+    position: absolute;
+} */
+.header_menu li#menu-item-3112 ul.sub-menu {
+	    columns: 2;
+    width: 600px;
+    position: absolute;
+}
+
+.header_menu .menu-item a.hfe-sub-menu-item {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.header_menu .elementor-element.elementor-element-5d55b62 ul.sub-menu li ul.sub-menu{}</style>
+<!-- end Simple Custom CSS and JS -->
