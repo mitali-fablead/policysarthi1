@@ -92,6 +92,13 @@
 .service-btn a.elementor-button.elementor-button-link.elementor-size-sm {
     background-color: transparent !important;
 	background-image:none!important;
-	padding: 0 !important;
+/* 	padding: 0 !important; */
+}
+
+button#wpforms-submit-2764::after {
+    content: "\f101";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    padding-left: 10px;
 }</style>
 <!-- end Simple Custom CSS and JS -->

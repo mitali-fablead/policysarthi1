@@ -8,6 +8,26 @@
 	 border: solid 2px #e0e4e8; 
 } */
 
+@media only screen and (min-width: 766px) {
+    #masthead .elementor-widget-icon-box .elementor-icon-box-wrapper {
+        flex-direction: row;
+        gap: var(--icon-box-icon-margin, 15px);
+        text-align: start;
+        display: flex;
+    }
+	#masthead .elementor-element-3f6484a .elementor-icon-box-wrapper .elementor-icon-box-title a {
+		color: #fff !important;
+	}
+	
+	#masthead .elementor-element-3f6484a .elementor-icon-box-wrapper .elementor-icon {
+		padding: 0 0.5em
+	}
+	
+	#masthead .elementor-element-a1d783b .elementor-icon-box-wrapper .elementor-icon-box-title a {
+		color: #000 !important;
+	}
+}
+
 .elementor-element-a1d783b .elementor-icon-box-icon a.elementor-icon {
     border: solid 2px #e0e4e8;
 }
@@ -23,16 +43,32 @@
     width: 600px;
     position: absolute;
 } */
-.header_menu li#menu-item-3112 ul.sub-menu {
+
+
+/* .header_menu li#menu-item-3112 ul.sub-menu {
 	    columns: 2;
     width: 600px;
     position: absolute;
-}
+} */
 
 .header_menu .menu-item a.hfe-sub-menu-item {
     padding-left: 10px !important;
     padding-right: 10px !important;
 }
 
-.header_menu .elementor-element.elementor-element-5d55b62 ul.sub-menu li ul.sub-menu{}</style>
+.header_menu .elementor-element.elementor-element-5d55b62 ul.sub-menu li ul.sub-menu{}
+
+
+@media (min-width: 1024px) {
+    .header_menu li#menu-item-7390 ul.sub-menu {
+        columns: 2;
+		 width: 600px;
+  
+    }
+}
+@media (max-width: 1025px) {
+    #menu-item-2832 a::after {
+    opacity: 0 !important;
+}
+}</style>
 <!-- end Simple Custom CSS and JS -->
